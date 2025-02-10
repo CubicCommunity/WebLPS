@@ -11,12 +11,17 @@ body {
     margin: 0;
 }
 
-.logo-container {
+.brand-container {
     text-align: center;
 }
 
 .logo {
     width: 50%;
+    height: auto;
+}
+
+.wordmark {
+    width: 37.5%;
     height: auto;
 }
 
