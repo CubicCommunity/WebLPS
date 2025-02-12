@@ -6,8 +6,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: #425eff;
+    padding-left: 25px;
+    padding-right: 25px;
     margin: 0;
 }
 
@@ -16,12 +17,12 @@ body {
 }
 
 .logo {
-    width: 50%;
+    width: 25%;
     height: auto;
 }
 
 .wordmark {
-    width: 37.5%;
+    width: 20%;
     height: auto;
 }
 
