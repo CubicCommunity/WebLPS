@@ -1,5 +1,5 @@
 # Avalanche Data
-The data for official Avalanche levels and profiles on Geometry Dash. Developers may use the API in the AvalancheIndex mod to easily access data from here.
+The data for official Avalanche levels and profiles on Geometry Dash - intended for Cubic staff and Avalanche members. Developers may use the API in the [AvalancheIndex mod](https://www.github.com/CubicCommunity/AvalancheIndex/) to easily access data from here.
 
 ## Profiles
 Geometry Dash accounts that are proven to belong to an Avalanche member.
@@ -24,7 +24,7 @@ Projects that Avalanche worked on.
 - **Team Project**: A project that members of the team worked on
 - **Collaboration**: A project that involves the work of Collaborators
 - **Event Entry**: A project that Avalanche made as an entry to another event
-- **Avalanche Event**: A project that resulted from an open or closed event hosted by Avalanche
+- **Avalanche Event**: A project that resulted from a public or private event hosted by Avalanche
 
 #### Data
 | Field             | Description                                       | Type              | Defaults                                                                      |
