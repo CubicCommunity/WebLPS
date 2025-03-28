@@ -21,6 +21,7 @@ Geometry Dash accounts that are proven to belong to an Avalanche member.
 Projects that Avalanche worked on.
 
 #### Project Type
+- **Solo Level**: A project that a member worked on by themself
 - **Team Project**: A project that members of the team worked on
 - **Collaboration**: A project that involves the work of Collaborators
 - **Event Entry**: A project that Avalanche made as an entry to another event
@@ -31,5 +32,5 @@ Projects that Avalanche worked on.
 |:-----------------:|---------------------------------------------------|:-----------------:|-------------------------------------------------------------------------------|
 | **`name`**        | Official name of the level.                       | string            | *`any`*                                                                       |
 | **`showcase`**    | Video URL of the full showcase of the level.      | string            | *`any`*                                                                       |
-| **`type`**        | Type of project the level is featured as.         | string            | `team`, `collab`, `entry`, `event`                                            |
+| **`type`**        | Type of project the level is featured as.         | string            | `solo`, `team`, `collab`, `entry`, `event`                                    |
 | **`fame`**        | If the level will be highlighted on lists.        | boolean           | `false `                                                                      |
