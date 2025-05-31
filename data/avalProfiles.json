@@ -42,5 +42,6 @@
     "31079132": {
         "name": "FCC",
         "badge": "cubic-studios"
-    }
+    },
+    "$schema": "./schema/avalProfiles.schema.json"
 }

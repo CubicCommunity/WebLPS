@@ -1,0 +1,44 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "$schema": {
+            "type": "string"
+        }
+    },
+    "patternProperties": {
+        "^[0-9]+$": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "patternProperties": {
+                        "^[a-zA-Z ]+$": {
+                            "type": "string"
+                        }
+                    },
+                    "title": "Member Name",
+                    "description": "Official pseudonym of the member."
+                },
+                "badge": {
+                    "type": "string",
+                    "enum": [
+                        "cubic-studios",
+                        "director",
+                        "team-manager",
+                        "team-member",
+                        "collaborator"
+                    ],
+                    "title": "Member Badge",
+                    "description": "ID of the member's badge."
+                }
+            },
+            "required": [
+                "name",
+                "badge"
+            ],
+            "additionalProperties": false
+        }
+    },
+    "additionalProperties": false
+}

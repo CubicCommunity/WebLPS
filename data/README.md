@@ -12,10 +12,10 @@ Geometry Dash accounts that are proven to belong to an Avalanche member.
 - **Cubic Studios**: Staff of Cubic Studios
 
 #### Data
-| Field             | Description                                       | Type              | Defaults                                                                      |
-|:-----------------:|---------------------------------------------------|:-----------------:|-------------------------------------------------------------------------------|
-| **`name`**        | Official pseudonym of the member.                 | string            | *`any`*                                                                       |
-| **`badge`**       | ID of the member's badge.                         | string            | `cubic-studios`, `director`, `team-manager`, `team-member`, `collaborator`    |
+|    Field    | Description                       |  Type  | Defaults                                                                   |
+| :---------: | --------------------------------- | :----: | -------------------------------------------------------------------------- |
+| **`name`**  | Official pseudonym of the member. | string | *`any`*                                                                    |
+| **`badge`** | ID of the member's badge.         | string | `cubic-studios`, `director`, `team-manager`, `team-member`, `collaborator` |
 
 ## Levels
 Projects that Avalanche worked on.
@@ -27,10 +27,10 @@ Projects that Avalanche worked on.
 - **Avalanche Event**: A project that resulted from a public or private event hosted by Avalanche
 
 #### Data
-| Field             | Description                                       | Type              | Defaults                                                                      |
-|:-----------------:|---------------------------------------------------|:-----------------:|-------------------------------------------------------------------------------|
-| **`name`**        | Official name of the level.                       | string            | *`any`*                                                                       |
-| **`host`**        | Name of the host of the level.                    | string            | *`any`*                                                                       |
-| **`showcase`**    | Video URL of the full showcase of the level.      | string            | *`any`*                                                                       |
-| **`type`**        | Type of project the level is featured as.         | string            | `solo`, `team`, `collab`, `event`                                             |
-| **`fame`**        | If the level will be highlighted on lists.        | boolean           | `false `                                                                      |
+|     Field      | Description                                          |  Type   | Defaults                          |
+| :------------: | ---------------------------------------------------- | :-----: | --------------------------------- |
+|   **`name`**   | Official name of the level.                          | string  | *`any`*                           |
+|   **`host`**   | Name of the host of the level.                       | string  | *`any`*                           |
+| **`showcase`** | YouTube video URL of the full showcase of the level. | string  | *`any`*                           |
+|   **`type`**   | Type of project the level is featured as.            | string  | `solo`, `team`, `collab`, `event` |
+|   **`fame`**   | If the level will be highlighted on lists.           | boolean | `false`                           |

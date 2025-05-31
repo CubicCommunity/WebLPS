@@ -16,22 +16,23 @@
     "115177370": {
         "name": "I L U",
         "host": "CyanBoi",
-        "showcase":"https://youtu.be/CMiOA4-MMDQ",
+        "showcase": "https://youtu.be/CMiOA4-MMDQ",
         "type": "solo",
         "fame": true
     },
     "109692779": {
         "name": "Unbreakable",
         "host": "ArcticWoof",
-        "showcase":"https://youtu.be/GZ-ZcNeG6zQ",
+        "showcase": "https://youtu.be/GZ-ZcNeG6zQ",
         "type": "solo",
         "fame": true
     },
     "111988771": {
         "name": "MCXI",
         "host": "FlyDrift",
-        "showcase":"https://youtu.be/hBu-9lGYum0",
+        "showcase": "https://youtu.be/hBu-9lGYum0",
         "type": "solo",
         "fame": true
-    }
+    },
+    "$schema": "./schema/avalProjects.schema.json"
 }

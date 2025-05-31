@@ -1,0 +1,74 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "$schema": {
+            "type": "string"
+        }
+    },
+    "patternProperties": {
+        "^[0-9]+$": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string",
+                    "patternProperties": {
+                        "^[a-zA-Z0-9 ]+$": {
+                            "type": "string"
+                        }
+                    },
+                    "title": "Level Name",
+                    "description": "Official name of the level."
+                },
+                "host": {
+                    "type": "string",
+                    "patternProperties": {
+                        "^[a-zA-Z ]+$": {
+                            "type": "string"
+                        }
+                    },
+                    "title": "Host Name",
+                    "description": "Name of the host of the level."
+                },
+                "showcase": {
+                    "type": "string",
+                    "patternProperties": {
+                        "^(https?://)?(www\\.)?(youtube\\.com|youtu\\.?be)/.+$": {
+                            "type": "string"
+                        },
+                        "^(https?://)?(www\\.)?youtube\\.com/watch\\?v=[a-zA-Z0-9_-]+(&list=[a-zA-Z0-9_-]+)?$": {
+                            "type": "string"
+                        }
+                    },
+                    "title": "Showcase URL",
+                    "description": "YouTube video URL of the full showcase of the level."
+                },
+                "type": {
+                    "type": "string",
+                    "enum": [
+                        "solo",
+                        "team",
+                        "collab",
+                        "event"
+                    ],
+                    "title": "Project Type",
+                    "description": "Type of project the level is featured as."
+                },
+                "fame": {
+                    "type": "boolean",
+                    "default": false,
+                    "title": "Hall of Fame",
+                    "description": "If the level will be highlighted on lists."
+                }
+            },
+            "required": [
+                "name",
+                "host",
+                "showcase",
+                "type"
+            ],
+            "additionalProperties": false
+        }
+    },
+    "additionalProperties": false
+}
