@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cubicstu/public_html/github/WebLPS
+    - /bin/cp -r . $DEPLOYPATH
+    - /bin/chmod 755 ${DEPLOYPATH}
