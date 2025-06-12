@@ -9,6 +9,8 @@
     "patternProperties": {
         "^[0-9]+$": {
             "type": "object",
+            "title": "Account ID",
+            "description": "Member's in-game account ID",
             "properties": {
                 "name": {
                     "type": "string",
@@ -27,15 +29,66 @@
                         "director",
                         "team-manager",
                         "team-member",
-                        "collaborator"
+                        "collaborator",
+                        "custom"
                     ],
                     "title": "Member Badge",
                     "description": "ID of the member's badge."
+                },
+                "custom": {
+                    "type": "object",
+                    "properties": {
+                        "id": {
+                            "type": "string"
+                        },
+                        "url": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "name": {
+                            "type": "string",
+                            "description": "Name of the custom badge (optional)."
+                        },
+                        "description": {
+                            "type": "string",
+                            "description": "Description of the custom badge (optional)."
+                        }
+                    },
+                    "required": [
+                        "id",
+                        "url"
+                    ],
+                    "additionalProperties": false,
+                    "title": "Custom Badge",
+                    "description": "Custom badge details (required if badge is 'custom')."
                 }
             },
             "required": [
                 "name",
                 "badge"
+            ],
+            "allOf": [
+                {
+                    "if": {
+                        "properties": {
+                            "badge": {
+                                "const": "custom"
+                            }
+                        }
+                    },
+                    "then": {
+                        "required": [
+                            "custom"
+                        ]
+                    },
+                    "else": {
+                        "not": {
+                            "required": [
+                                "custom"
+                            ]
+                        }
+                    }
+                }
             ],
             "additionalProperties": false
         }

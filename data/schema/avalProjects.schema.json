@@ -9,6 +9,8 @@
     "patternProperties": {
         "^[0-9]+$": {
             "type": "object",
+            "title": "Level ID",
+            "description": "Project's in-game level ID",
             "properties": {
                 "name": {
                     "type": "string",

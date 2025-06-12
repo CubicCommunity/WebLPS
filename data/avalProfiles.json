@@ -43,5 +43,9 @@
         "name": "TimeRed",
         "badge": "team-member"
     },
+    "13807431": {
+        "name": "Quablue",
+        "badge": "team-member"
+    },
     "$schema": "./schema/avalProfiles.schema.json"
 }
