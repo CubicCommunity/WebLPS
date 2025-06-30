@@ -6,6 +6,34 @@
         "type": "team",
         "fame": false
     },
+    "107218791": {
+        "name": "ANGKASA",
+        "host": "ArcticWoof",
+        "showcase": "https://youtu.be/cZXV588fLao",
+        "type": "collab",
+        "fame": false
+    },
+    "109692779": {
+        "name": "Unbreakable",
+        "host": "ArcticWoof",
+        "showcase": "https://youtu.be/GZ-ZcNeG6zQ",
+        "type": "collab",
+        "fame": true
+    },
+    "110464810": {
+        "name": "Beat Me",
+        "host": "ArcticWoof",
+        "showcase": "https://youtu.be/6pdnSx02n9E",
+        "type": "collab",
+        "fame": false
+    },
+    "111409496": {
+        "name": "About Anxiety",
+        "host": "ArcticWoof",
+        "showcase": "https://youtu.be/rX362zeXT74",
+        "type": "collab",
+        "fame": false
+    },
     "114642054": {
         "name": "Adrifto",
         "host": "Terma",
@@ -20,10 +48,10 @@
         "type": "solo",
         "fame": true
     },
-    "109692779": {
-        "name": "Unbreakable",
-        "host": "ArcticWoof",
-        "showcase": "https://youtu.be/GZ-ZcNeG6zQ",
+    "107791691": {
+        "name": "Raven",
+        "host": "CyanBoi",
+        "showcase": "https://youtu.be/45vI41pJXGk",
         "type": "solo",
         "fame": true
     },
@@ -33,6 +61,27 @@
         "showcase": "https://youtu.be/hBu-9lGYum0",
         "type": "solo",
         "fame": true
+    },
+    "105528721": {
+        "name": "Deep Blue Sea",
+        "host": "TimeRed",
+        "showcase": "https://youtu.be/lSikdbpofTU",
+        "type": "solo",
+        "fame": false
+    },
+    "103106360": {
+        "name": "Blast Off",
+        "host": "TimeRed",
+        "showcase": "https://youtu.be/Obc1mwJrw58",
+        "type": "solo",
+        "fame": false
+    },
+    "94212467": {
+        "name": "Pixel Rush",
+        "host": "TimeRed",
+        "showcase": "https://youtu.be/wW9h06n2a-U",
+        "type": "solo",
+        "fame": false
     },
     "$schema": "./schema/avalProjects.schema.json"
 }
