@@ -10,21 +10,21 @@
         "name": "ANGKASA",
         "host": "ArcticWoof",
         "showcase": "https://youtu.be/cZXV588fLao",
-        "type": "collab",
+        "type": "solo",
         "fame": false
     },
     "109692779": {
         "name": "Unbreakable",
         "host": "ArcticWoof",
         "showcase": "https://youtu.be/GZ-ZcNeG6zQ",
-        "type": "collab",
+        "type": "solo",
         "fame": true
     },
     "110464810": {
         "name": "Beat Me",
         "host": "ArcticWoof",
         "showcase": "https://youtu.be/6pdnSx02n9E",
-        "type": "collab",
+        "type": "solo",
         "fame": false
     },
     "111409496": {
@@ -46,7 +46,7 @@
         "host": "CyanBoi",
         "showcase": "https://youtu.be/CMiOA4-MMDQ",
         "type": "solo",
-        "fame": true
+        "fame": false
     },
     "107791691": {
         "name": "Raven",
