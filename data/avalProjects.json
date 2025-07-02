@@ -88,5 +88,6 @@
         "type": "solo",
         "fame": false
     },
+    "latest": 115031766,
     "$schema": "./schema/avalProjects.schema.json"
 }

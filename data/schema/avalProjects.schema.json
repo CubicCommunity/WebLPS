@@ -102,6 +102,12 @@
                 "type"
             ],
             "additionalProperties": false
+        },
+        "latest": {
+            "type": "number",
+            "title": "Latest Project ID",
+            "description": "The ID of the most recently added project.",
+            "default": 0
         }
     },
     "additionalProperties": false
