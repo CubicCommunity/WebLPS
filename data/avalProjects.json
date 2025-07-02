@@ -3,8 +3,20 @@
         "name": "Ovalanch",
         "host": "ArcticWoof",
         "showcase": "https://www.youtube.com/watch?v=U-y4dPRe580&list=PL0dsSu2pR5cEizdltj5Q2ocpSMZlQs5M4",
+        "thumbnail": "https://i.imgur.com/PEPDhc4.png",
         "type": "team",
         "fame": false
+    },
+    "114642054": {
+        "name": "Adrifto",
+        "host": "Terma",
+        "showcase": "https://youtu.be/weq1iZIxJU4",
+        "type": "event",
+        "fame": true,
+        "project": {
+            "enabled": true,
+            "id": 115031766
+        }
     },
     "107218791": {
         "name": "ANGKASA",
@@ -33,13 +45,6 @@
         "showcase": "https://youtu.be/rX362zeXT74",
         "type": "collab",
         "fame": false
-    },
-    "114642054": {
-        "name": "Adrifto",
-        "host": "Terma",
-        "showcase": "https://youtu.be/weq1iZIxJU4",
-        "type": "event",
-        "fame": true
     },
     "115177370": {
         "name": "I L U",

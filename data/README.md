@@ -27,10 +27,11 @@ Projects that Avalanche worked on.
 - **Avalanche Event**: A project that resulted from a public or private event hosted by Avalanche
 
 #### Data
-|     Field      | Description                                          |  Type   | Defaults                          |
-| :------------: | ---------------------------------------------------- | :-----: | --------------------------------- |
-|   **`name`**   | Official name of the level.                          | string  | *`any`*                           |
-|   **`host`**   | Name of the host of the level.                       | string  | *`any`*                           |
-| **`showcase`** | YouTube video URL of the full showcase of the level. | string  | *`any`*                           |
-|   **`type`**   | Type of project the level is featured as.            | string  | `solo`, `team`, `collab`, `event` |
-|   **`fame`**   | If the level will be highlighted on lists.           | boolean | `false`                           |
+|      Field      | Description                                          |  Type   | Defaults                          |
+| :-------------: | ---------------------------------------------------- | :-----: | --------------------------------- |
+|   **`name`**    | Official name of the level.                          | string  | *`any`*                           |
+|   **`host`**    | Name of the host of the level.                       | string  | *`any`*                           |
+| **`showcase`**  | YouTube video URL of the full showcase of the level. | string  | *`any`*                           |
+| **`thumbnail`** | URL of a custom thumbnail image for the level.       | string  | *`any`*                           |
+|   **`type`**    | Type of project the level is featured as.            |  enum   | `solo`, `team`, `collab`, `event` |
+|   **`fame`**    | If the level will be highlighted on lists.           | boolean | `false`                           |

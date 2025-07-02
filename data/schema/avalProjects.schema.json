@@ -13,26 +13,28 @@
             "description": "Project's in-game level ID",
             "properties": {
                 "name": {
+                    "title": "Level Name",
+                    "description": "Official name of the level.",
                     "type": "string",
                     "patternProperties": {
                         "^[a-zA-Z0-9 ]+$": {
                             "type": "string"
                         }
-                    },
-                    "title": "Level Name",
-                    "description": "Official name of the level."
+                    }
                 },
                 "host": {
+                    "title": "Host Name",
+                    "description": "Name of the host of the level.",
                     "type": "string",
                     "patternProperties": {
                         "^[a-zA-Z ]+$": {
                             "type": "string"
                         }
-                    },
-                    "title": "Host Name",
-                    "description": "Name of the host of the level."
+                    }
                 },
                 "showcase": {
+                    "title": "Showcase URL",
+                    "description": "YouTube video URL of the full showcase of the level.",
                     "type": "string",
                     "patternProperties": {
                         "^(https?://)?(www\\.)?(youtube\\.com|youtu\\.?be)/.+$": {
@@ -41,26 +43,56 @@
                         "^(https?://)?(www\\.)?youtube\\.com/watch\\?v=[a-zA-Z0-9_-]+(&list=[a-zA-Z0-9_-]+)?$": {
                             "type": "string"
                         }
-                    },
-                    "title": "Showcase URL",
-                    "description": "YouTube video URL of the full showcase of the level."
+                    }
+                },
+                "thumbnail": {
+                    "title": "Thumbnail URL",
+                    "description": "URL of a custom thumbnail image for the level.",
+                    "type": "string",
+                    "patternProperties": {
+                        "^(https?://)?(www\\.)?imgur\\.com/([a-zA-Z0-9]+)(\\.[a-zA-Z]{3,4})?$": {
+                            "type": "string"
+                        }
+                    }
                 },
                 "type": {
+                    "title": "Project Type",
+                    "description": "Type of project the level is featured as.",
                     "type": "string",
                     "enum": [
                         "solo",
                         "team",
                         "collab",
                         "event"
-                    ],
-                    "title": "Project Type",
-                    "description": "Type of project the level is featured as."
+                    ]
                 },
                 "fame": {
-                    "type": "boolean",
-                    "default": false,
                     "title": "Hall of Fame",
-                    "description": "If the level will be highlighted on lists."
+                    "description": "If the level will be highlighted on lists.",
+                    "type": "boolean",
+                    "default": false
+                },
+                "project": {
+                    "title": "Linked Team Project",
+                    "description": "Link to the Team Project this level is associated with.",
+                    "type": "object",
+                    "properties": {
+                        "enabled": {
+                            "type": "boolean",
+                            "default": false,
+                            "title": "Link Enabled",
+                            "description": "If the project is linked to a main level."
+                        },
+                        "id": {
+                            "type": "number",
+                            "title": "Main Level ID",
+                            "description": "ID of the main level this project is linked to."
+                        }
+                    },
+                    "required": [
+                        "enabled",
+                        "id"
+                    ]
                 }
             },
             "required": [
